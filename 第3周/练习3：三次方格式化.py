@@ -7,3 +7,8 @@ while 1:
     a = eval(input())
     b = a**3
     print(str(b).center(20,'-'))
+
+'''【参考代码】
+a = eval(input())
+print("{:-^20}".format(pow(a, 3)))
+这是一个简单题，重点在于理解格式化输出的方法。'''

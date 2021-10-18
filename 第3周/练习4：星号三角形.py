@@ -10,3 +10,9 @@ else:
         if i%2 == 1:
             #print('{:-^)}'.format('*'*i))
             print(('*'*i).center(odd,' '))
+
+'''【参考答案】
+n = eval(input())
+for i in range(1,n+1,2):
+    print("{0:^{1}}".format('*'*i, n))
+关键是对.format()中槽机制的理解，槽中可以嵌套槽，用来表示宽度、填充等含义。'''
